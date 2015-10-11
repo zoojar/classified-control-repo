@@ -7,6 +7,11 @@ mod 'node_manager',
   :git => 'https://git@github.com/zoojar/prosvcs-node_manager'
 
 mod "classifier",
-  :git => "git://github.com/zoojar/zj-classifier",
+  :git => 'git://github.com/zoojar/zj-classifier',
   :ref => "classified"
 
+mod "role",
+  :git => 'git://github.com/zoojar/pe-role'
+
+mod "profile",
+  :git => 'git://github.com/zoojar/pe-profile'  
