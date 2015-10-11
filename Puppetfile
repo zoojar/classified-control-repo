@@ -8,5 +8,5 @@ mod 'node_manager',
 
 mod "classifier",
   :git => "git://github.com/zoojar/zj-classifier",
-  :ref => "openstack"
+  :ref => "classified"
 
