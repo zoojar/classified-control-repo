@@ -6,12 +6,18 @@ mod 'puppetlabs/pe_gem', '0.1.1'
 mod 'node_manager',
   :git => 'https://git@github.com/zoojar/prosvcs-node_manager'
 
-mod "classifier",
+mod 'classifier',
   :git => 'git://github.com/zoojar/zj-classifier',
   :ref => "classified"
 
-mod "role",
+mod 'role',
   :git => 'git://github.com/zoojar/pe-role'
 
-mod "profile",
+mod 'profile',
   :git => 'git://github.com/zoojar/pe-profile'  
+
+mod 'puppetlabs/apache', '1.6.0'
+
+mod 'puppetlabs/stdlib', '4.9.0'
+
+mod 'puppetlabs/concat', '1.2.4'
