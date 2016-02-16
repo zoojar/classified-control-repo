@@ -5,6 +5,14 @@ mod 'puppetlabs/pe_gem', '0.1.1'
 
 mod 'WhatsARanjit/node_manager', '0.2.1'
 
+mod 'hunner/hiera', '2.0.1'
+
+mod 'puppetlabs/inifile', '1.4.3'
+
+mod 'hiera-eyaml',
+  :git => 'git://github.com/TomPoulton/hiera-eyaml',
+  :ref => 'v2.0.8'
+
 mod 'classifier',
   :git => 'git://github.com/zoojar/zj-classifier',
   :ref => "classified"
