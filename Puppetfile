@@ -3,8 +3,7 @@ forge "http://forge.puppetlabs.com"
 ## Node Classification
 mod 'puppetlabs/pe_gem', '0.1.1'
 
-mod 'node_manager',
-  :git => 'https://github.com/zoojar/prosvcs-node_manager'
+mod 'WhatsARanjit/node_manager', '0.2.1'
 
 mod 'classifier',
   :git => 'git://github.com/zoojar/zj-classifier',
