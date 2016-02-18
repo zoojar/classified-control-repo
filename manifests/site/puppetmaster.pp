@@ -8,7 +8,6 @@ class puppetmaster {
       'common',
     ],
     eyaml         => true,
-    provider      => 'puppetserver_gem',
   }
 
 
