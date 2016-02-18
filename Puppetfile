@@ -13,6 +13,8 @@ mod 'hiera-eyaml',
   :git => 'git://github.com/TomPoulton/hiera-eyaml',
   :ref => 'v2.0.8'
 
+mod 'puppetlabs/puppetserver_gem', '0.1.0'
+
 mod 'classifier',
   :git => 'git://github.com/zoojar/zj-classifier',
   :ref => "classified"
