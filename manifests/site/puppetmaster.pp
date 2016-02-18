@@ -9,7 +9,6 @@ class puppetmaster {
     ],
     eyaml         => true,
     provider      => 'puppetserver_gem',
-    masterservice => 'pe-puppetserver',
   }
 
 
